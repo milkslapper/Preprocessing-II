@@ -10,6 +10,18 @@
   }
 }
 @media (max-width: 500px) {
+  .bus {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .top-section {
+    width: 90%;
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 500px) {
   .content-section {
     padding-left: 2rem;
     flex-direction: column;
@@ -34,10 +46,10 @@
     align-items: center;
   }
   .content-destination img {
-    width: 46rem;
+    width: 42rem;
   }
   .content-destination .destination-spot {
-    width: 95%;
+    width: 90%;
   }
 }
 @media (max-width: 500px) {
