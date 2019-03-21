@@ -8,10 +8,13 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .navigation nav a {
+    margin: 0rem 2.5rem;
+  }
 }
 @media (max-width: 500px) {
   .bus {
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 2rem;
   }
 }
@@ -315,7 +318,10 @@ nav a {
 }
 .home .destination-spot {
   text-align: left;
-  margin: 0rem 0rem;
+  margin: 0rem 15rem;
+}
+.home .destination-image {
+  text-align: center;
 }
 .content-pick {
   padding-top: 30px;
