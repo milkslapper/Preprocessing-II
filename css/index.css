@@ -1,3 +1,13 @@
+@media (max-width: 500px) {
+  .content-section {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .inverse-content {
+    flex-direction: column-reverse;
+  }
+}
 .btn {
   color: white;
   background-color: #17A2B8;
@@ -213,7 +223,7 @@ nav a {
 .home .content-section {
   margin: 30px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .home .content-section .text-content {
   padding-right: 15%;
