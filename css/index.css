@@ -56,7 +56,25 @@
     width: 90%;
   }
 }
-@media (max-width: 500px) {
+/*.content-pick {
+    @media @phone {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 120rem;
+        margin: 0rem 5rem;
+    }
+    .destination {
+
+    .btn {
+       width: 35rem;
+       height: 4rem;
+       padding-top: 1rem;
+
+        }
+    }
+}*/
+@media (max-width:500px) {
   .content-pick {
     display: flex;
     flex-wrap: wrap;
@@ -64,6 +82,8 @@
     width: 120rem;
     margin: 0rem 5rem;
   }
+}
+@media (max-width:500px) {
   .destination .btn {
     width: 35rem;
     height: 4rem;
